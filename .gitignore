@@ -1,0 +1,19 @@
+# Python garbage
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Data & Database (Too big for git usually, and we generate it anyway)
+lancedb_data/
+*.csv
+*.json
+
+# VS Code settings
+.vscode/
+
+# Mac OS garbage
+.DS_Store
